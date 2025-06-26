@@ -1,0 +1,11 @@
+meta {
+  name: Send Product to Kafka
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:8080/api/products/send
+  body: none
+  auth: inherit
+}

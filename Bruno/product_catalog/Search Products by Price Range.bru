@@ -1,0 +1,16 @@
+meta {
+  name: Search Products by Price Range
+  type: http
+  seq: 11
+}
+
+get {
+  url: http://localhost:8080/api/search/products/price?minPrice=100&maxPrice=300
+  body: none
+  auth: inherit
+}
+
+params:query {
+  minPrice: 100
+  maxPrice: 300
+}

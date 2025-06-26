@@ -1,0 +1,17 @@
+meta {
+  name: Search Products with Pagination
+  type: http
+  seq: 14
+}
+
+get {
+  url: http://localhost:8080/api/search/products/paginated?q=product&page=0&size=5
+  body: none
+  auth: inherit
+}
+
+params:query {
+  q: product
+  page: 0
+  size: 5
+}

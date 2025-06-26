@@ -1,0 +1,15 @@
+meta {
+  name: Search Products by Category
+  type: http
+  seq: 10
+}
+
+get {
+  url: http://localhost:8080/api/search/products/category?category=Electronics
+  body: none
+  auth: inherit
+}
+
+params:query {
+  category: Electronics
+}

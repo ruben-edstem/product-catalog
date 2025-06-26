@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "product_catalog",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
